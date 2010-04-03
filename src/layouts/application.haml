@@ -3,5 +3,9 @@
   %head
     %title Ruby Сообщество Санкт-Петербург
     = stylesheets
+    %link{:href => '/favicon.ico', :rel => 'shortcut icon'}
   %body
+    #header
+      %h1= link 'Spbruby', '/'
+      %h2 Сообщество ruby-программистов в Санкт-Петербурге
     = yield
