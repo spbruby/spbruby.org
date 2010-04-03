@@ -1,0 +1,46 @@
+body {
+  font-family: Georgia;
+  font-size: 10pt;
+  background: url(/images/ruby.png) no-repeat 10px 10px;
+  padding-left: 130px; }
+
+#header h1 {
+  margin-bottom: 0; }
+  #header h1 a {
+    text-decoration: none;
+    color: #000; }
+  #header h1 a:hover {
+    text-decoration: underline; }
+#header h2 {
+  margin: 0; }
+
+ul.thanks {
+  list-style-type: none;
+  padding: 0; }
+  ul.thanks li {
+    height: 50px;
+    margin: 0;
+    padding-top: 10px;
+    padding-left: 60px;
+    background-repeat: no-repeat;
+    background-position: top left; }
+    ul.thanks li a {
+      display: block; }
+  ul.thanks li.avalon {
+    background-image: url(/images/logos/avalon.png); }
+  ul.thanks li.locum {
+    background-image: url(/images/logos/locum.png); }
+
+.links a {
+  padding-left: 20px;
+  margin-right: 0.5em;
+  background-repeat: no-repeat;
+  background-position: top left; }
+.links a.twitter {
+  background-image: url(/images/logos/twitter.png); }
+.links a.github {
+  background-image: url(/images/logos/github.png); }
+
+.meetings h3 {
+  background: url(/images/icons/date.gif) no-repeat 3px left;
+  padding-left: 20px; }
